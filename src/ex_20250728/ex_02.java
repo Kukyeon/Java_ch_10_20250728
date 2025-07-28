@@ -23,9 +23,8 @@ public class ex_02 {
 				
 		} catch(Exception e) {
 			System.out.println("오류발생");
-		}finally {
-			scanner.close();
 		}
+			scanner.close();
 		
 		
 		

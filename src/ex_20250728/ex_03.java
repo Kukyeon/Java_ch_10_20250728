@@ -27,9 +27,9 @@ public class ex_03 {
 			}
 		} catch(Exception e) {
 			System.out.println(" 정수가 아닙니다. ");
-		}finally {
-			scanner.close();
 		}
+			scanner.close();
+		
 		
 		
 }

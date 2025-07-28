@@ -8,25 +8,21 @@ public class ex_01 {
 	
 	Scanner scanner = new Scanner(System.in);
 	
+		System.out.println("첫번째 숫자 입력");
+		int a = scanner.nextInt();
+		System.out.println("두번째 숫자 입력");
+		int b = scanner.nextInt();
+		int result;
+	
 		try {
+			result = a / b;
+			System.out.println(result);
 			
-			System.out.println("첫번째 숫자 입력");
-			int num1 = Integer.parseInt(scanner.nextLine());
-			
-			System.out.println("두번째 숫자 입력");
-			int num2 = Integer.parseInt(scanner.nextLine());
-			
-			if (num2 == 0) {
-				System.out.println("0으로 나눌수 없다");
-			} else {
-				int result = num1 / num2;
-                System.out.println("결과값 : " + result);
-}
-			} catch(Exception e) {
-				System.out.println(" 값을 확인 해주세요 ");
-			} finally {
-				scanner.close();
-			}
+		} catch (Exception e) {
+			System.out.println("0으로 나눌수없습니다.");
 		}
+		scanner.close();
+	}
+	
 	
 }
