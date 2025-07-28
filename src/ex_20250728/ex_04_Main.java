@@ -12,7 +12,7 @@ public class ex_04_Main {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			System.out.println(" 에러발생 " + e.getMessage());
+			
 		}
 		
 		
