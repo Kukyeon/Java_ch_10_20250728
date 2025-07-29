@@ -21,7 +21,7 @@ public class ex_03 {
 			int number = Integer.parseInt(input);	
 			
 			if (number % 2 == 0) {
-				System.out.println(" 정수 ");
+				System.out.println(" 짝수 ");
 			} else {
 				System.out.println(" 홀수 ");
 			}
